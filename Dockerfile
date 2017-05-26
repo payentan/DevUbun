@@ -1,6 +1,7 @@
 FROM ubuntu
 MAINTAINER tpe
 RUN apt update
+RUN apt install -y build-essential
 RUN apt install -y cmake
 RUN apt install -y curl
 RUN apt install -y gcc
