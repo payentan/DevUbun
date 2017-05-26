@@ -2,7 +2,7 @@ FROM ubuntu
 MAINTAINER tpe
 RUN apt update
 RUN apt install -y cmake
-RUN apt install curl
+RUN apt install -y curl
 RUN apt install -y gcc
 RUN apt install -y git
 RUN apt install -y iproute2
